@@ -1,0 +1,38 @@
+#topHeader{
+    text-align: center;
+    position: absolute;
+    align-items: center;
+    border: 50px black;
+    background-color: rgb(94, 132, 248);
+    height:fit-content;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+#navBar{
+    text-align: center;
+    
+    align-self: center;
+    background-color: lightgray;
+    height:100px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: content-box;
+    float: inline-start;
+
+}
+
+#supermarkets{
+    float: left;
+}
+#baseImage{
+    
+    align-self: center;
+    height:400px;
+    padding: 5px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
