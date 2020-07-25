@@ -6,6 +6,8 @@
     <title>Basic HTML</title>
     <meta name="viewport" content="width=device-width, intial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
 
       
 </head>
@@ -22,20 +24,68 @@
 
         </div2>
         <hr>
-        <div id="navBar">
-            
-            
-            <img src="logo.svg" style="margin-left:10px; float: left; height: 90px;"><br>
-            <input type="text" class="search-bar" placeholder="search prodcts, supermarkets, categories,etc" >
-            </input>             
-            <nav>
-                <span><a href="#businesses" style="margin-right: 40px; color:black;float: inline-end;"> Businesses</a> </span>
-                <span><a href="#Product" style="margin-right: 40px; color:black; float: inline-end;"> Product</a> </span>
-                <span><a href="#Login" style="margin-right: 40px; color:black; float: inline-end;">Login</a> </span>
-                <span><a href="#Help" style="margin-right: 40px; color:black; float: inline-end;"> Help</a> </span>
-               
-            </nav>
-        </div>
+        <br>
+        
+     <section>
+        
+            <div class="container">
+                <div class="row mt-1 mb-1" >
+
+                  <div class="col-2 justify-content-center">
+                  <img  src="logo.svg" class="image-size" >
+                  </div>
+                  <div class="col-4">
+                      <form><div class="col">
+                        <input type="search" class="form-control border-radius" placeholder="search prodcts, supermarkets, categories,etc" >
+                    </input>         
+                      </div>
+                    </form>
+                   
+                  </div>
+
+                  <div class="col-6">
+                      <!--<nav>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                          <div class="navbar-nav">
+                              <ul class="navbar-nav">
+                                  <li class="nav-item active">
+                                    <a class="nav-item nav-link active" href="#businesses">Businesses<span class="sr-only">(current)</span></a>
+                                  </li>
+                                  <li class="nav-item active">
+                                    <a class="nav-item nav-link" href="#Product">Prodcust</a>
+                                  </li>
+                                  <li class="nav-item active">
+                                     <a class="nav-item nav-link" href="#Login">Login</a>
+                                  </li>
+                                  <li class="nav-item active">
+                                     <a class="nav-item nav-link" href="#Help">Help</a>
+                                  </li>
+                            
+                            
+                              </ul> 
+                        </div>
+                        </div>
+                      </nav>-->
+
+                      <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                          <a class="nav-link active" href="#">Active</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                      </ul>
+                      
+                    
+                    </div>
+        
+    </section>
         <hr>
     </header> 
     <div id="baseImage">
@@ -44,10 +94,43 @@
     <br>  
     <hr>
 <br>
-    <section1>
-        <B>PRODUCT CATEGORIES</B>
-        <hr>
-        <div1>
+    
+        <section>
+            <div class="container pt-3 pb-3">
+                <h6 class="mt-2 mb-2">PRODUCT CATEGORIES</h6> 
+          <a class="view-link align-content-left" href="view">view all</a> 
+            </div>
+            <div class="container bg-primary round-lg width100 padding-2"> 
+                <div class="d-flex flex-row justify-content-around align-items-center text-wrap">
+                    <div class="bg-white cart-box "> 
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        DRINKS
+               
+                 </div>
+                 <div class="bg-white cart-box "> 
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    DRINKS
+           
+             </div>
+             <div class="bg-white cart-box "> 
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                DRINKS
+       
+         </div>
+         <div class="bg-white cart-box "> 
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            DRINKS
+   
+     </div>
+     <div class="bg-white cart-box "> 
+        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+        DRINKS
+
+ </div>
+               </div>
+            </div>
+      <!--
+          <div1>
             <span> 
                 <img src="icon.png" width="30" height="30"> 
                 <span>DRINKS</span>
@@ -74,47 +157,69 @@
             </span>
             
         </div1>
-    </section1>   
-     <section2>
-        Supermarkets
-        <section>
-            <div>
-                <img src="grocerybazaar.png">
-                <P>GROCERY BAZAAR</P>
-                <P>Ikeja</P>
-                <button>Shop Now</button>
+
+      -->  
+    </section>   
+     <section>
+         <div class="container pt-3 pb-3">
+             <h6 class="mt-2 mb-2">SUPERMARKETS</h6> 
+       <a class="view-link align-content-left" href="view">view all</a> 
+         </div>
+         <div class="container bg-light rounded-lg width100 p-2">
+             <div class="d-flex flex-row justify-content-around bg-white">
+        <div class="card" style="width: 18rem;">
+            <img src="grocerybazaar.png" class="card-img-top" alt="supermarkets">
+            <div class="card-body">
+              <h5 class="card-title">GROCERY BAZAAR</h5>
+              <p class="card-text">Ikeja</p>
+              <a href="#" class="btn btn-primary">Shop Now</a>
             </div>
-            <div>
-                <img src="grocerybazaar.png">
-                <P>GROCERY BAZAAR</P>
-                <P>Ikeja</P>
-                <button>Shop Now</button>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="grocerybazaar.png" class="card-img-top" alt="supermarkets">
+            <div class="card-body">
+              <h5 class="card-title">GROCERY BAZAAR</h5>
+              <p class="card-text">Ikeja</p>
+              <a href="#" class="btn btn-primary">Shop Now</a>
             </div>
-            <div>
-                <img src="grocerybazaar.png">
-                <P>GROCERY BAZAAR</P>
-                <P>Ikeja</P>
-                <button>Shop Now</button>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="grocerybazaar.png" class="card-img-top" alt="supermarkets">
+            <div class="card-body">
+              <h5 class="card-title">GROCERY BAZAAR</h5>
+              <p class="card-text">Ikeja</p>
+              <a href="#" class="btn btn-primary">Shop Now</a>
             </div>
-            <div>
-                <img src="grocerybazaar.png">
-                <P>GROCERY BAZAAR</P>
-                <P>Ikeja</P>
-                <button>Shop Now</button>
+          </div>
+           
+          <div class="card" style="width: 18rem;">
+            <img src="grocerybazaar.png" class="card-img-top" alt="supermarkets">
+            <div class="card-body">
+              <h5 class="card-title">GROCERY BAZAAR</h5>
+              <p class="card-text">Ikeja</p>
+              <a href="#" class="btn btn-primary">Shop Now</a>
             </div>
-            <div>
-                <P>GROCERY BAZAAR</P>
-                <P>Ikeja</P>
-                <button>Shop Now</button>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="grocerybazaar.png" class="card-img-top" alt="supermarkets">
+            <div class="card-body">
+              <h5 class="card-title">GROCERY BAZAAR</h5>
+              <p class="card-text">Ikeja</p>
+              <a href="#" class="btn btn-primary">Shop Now</a>
             </div>
-            <div>
-                <img src="grocerybazaar.png">
-                <P>GROCERY BAZAAR</P>
-                <P>Ikeja</P>
-                <button>Shop Now</button>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="grocerybazaar.png" class="card-img-center" alt="supermarkets">
+            <div class="card-body">
+              <h5 class="card-title">GROCERY BAZAAR</h5>
+              <p class="card-text">Ikeja</p>
+              <a href="#" class="btn btn-primary">Shop Now</a>
             </div>
-        </section>
-    </section2>
+          </div>
+        </div>
+        </div>
+              </section>
+    
     <section3>
         Restaurants
         <section>
@@ -159,6 +264,9 @@
     <footer>
         Code mentoring Program demo
     </footer>
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -36,3 +36,24 @@
     margin-left: auto;
     
 }
+.image-size{
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    padding-bottom: 2px;
+    margin-bottom: auto;
+    float: left;
+}
+.icon{
+    background-color: blue;
+    border-radius: 50%;
+    border:1px solid grey;
+    padding: 10px;
+    
+
+}
+.cart-box{
+    width: 14%;
+    border-radius: 5%;
+    padding: 10%;
+}
